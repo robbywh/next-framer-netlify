@@ -11,3 +11,16 @@
   to = "https://strategic-darling-210869.framer.app/blog"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/promo"
+  to = "https://strategic-darling-210869.framer.app/promo"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "https://strategic-darling-210869.framer.app"
+  status = 200
+  force = true
+  conditions = { Query = [] }  # Applies to exactly "/"
