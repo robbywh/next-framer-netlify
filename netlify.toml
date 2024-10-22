@@ -21,5 +21,5 @@
 [[redirects]]
   from = "/"
   to = "https://strategic-darling-210869.framer.app"
-  status = 301  # Permanent redirect
+  status = 200
   force = true  # Ensure the redirect happens even if there is an index.html file
