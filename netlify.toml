@@ -21,6 +21,6 @@
 [[redirects]]
   from = "/"
   to = "https://strategic-darling-210869.framer.app"
-  status = 200
-  force = true
+  status = 301  # Permanent redirect
+  force = true  # Ensure the redirect happens even if there is an index.html file
   conditions = { Query = [] }  # Applies to exactly "/"
