@@ -7,7 +7,7 @@
   package = "@netlify/plugin-nextjs"
 
 [[redirects]]
-  from = "/kalkulator"
-  to = "https://strategic-darling-210869.framer.app/kalkulator"
+  from = "/blog"
+  to = "https://strategic-darling-210869.framer.app/blog"
   status = 200
   force = true
