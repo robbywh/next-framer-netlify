@@ -17,3 +17,4 @@
   to = "https://strategic-darling-210869.framer.app"
   status = 200
   force = true
+  conditions = { Query = [] }  # Applies to exactly "/"
