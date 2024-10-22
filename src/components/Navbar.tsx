@@ -7,30 +7,15 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/">
-              <a className="text-xl font-semibold"> 
-                <img src="/path/to/logo.png" alt="Logo" className="h-8 w-auto" />
-              </a>
-            </Link>
           </div>
 
           {/* Menu Items */}
           <div className="hidden md:flex space-x-8">
-            <Link href="/">
-              <a className="text-gray-700 hover:text-black">Beranda</a>
-            </Link>
-            <Link href="/peluang-deposito">
-              <a className="text-gray-700 hover:text-black">Peluang Deposito</a>
-            </Link>
-            <Link href="/kalkulator">
-              <a className="text-gray-700 hover:text-black">Kalkulator</a>
-            </Link>
-            <Link href="/promo">
-              <a className="text-gray-700 hover:text-black">Promo</a>
-            </Link>
-            <Link href="/blog">
-              <a className="text-gray-700 hover:text-black">Blog</a>
-            </Link>
+            <a href="/" className="text-gray-700 hover:text-black">Beranda</a>
+            <a href="/peluang-deposito" className="text-gray-700 hover:text-black">Peluang Deposito</a>
+            <a href="/kalkulator" className="text-gray-700 hover:text-black">Kalkulator</a>
+            <a href="/promo" className="text-gray-700 hover:text-black">Promo</a>
+            <a href="/blog" className="text-gray-700 hover:text-black">Blog</a>
           </div>
         </div>
       </div>
